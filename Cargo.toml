@@ -1,0 +1,13 @@
+[package]
+name = "rs-heapless-vec"
+version = "1.0.0"
+edition = "2021"
+description = "Heapless stack-allocated Vec for no_std environments"
+license = "MIT"
+authors = ["Mahmoud ElNemer <sultanelnemer@gmail.com>"]
+repository = "https://github.com/ElNeMeR70/rs-heapless-vec"
+keywords = ["rust", "heapless", "no-std", "embedded", "data-structures"]
+
+[[bin]]
+name = "rs_heapless_vec"
+path = "main.rs"
